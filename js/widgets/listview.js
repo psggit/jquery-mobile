@@ -94,7 +94,7 @@ $.widget( "mobile.listview", $.extend( {
 			countBubbles = $list.find( ".ui-li-count" ),
 			countTheme = getAttr( $list[ 0 ], "counttheme" ) || this.options.countTheme,
 			countThemeClass = countTheme ? "ui-body-" + countTheme : "ui-body-inherit";
-
+			$("#listID").append($("<li />").text("Some Text (" + (count++) + ")")).listview("refresh");
 		if ( o.theme ) {
 			$list.addClass( "ui-group-theme-" + o.theme );
 		}

@@ -1006,6 +1006,7 @@ $.mobile.document.on( "pagebeforechange", function( theEvent, data ) {
 	if ( data.options.role === "popup" ) {
 		$.mobile.popup.handleLink( data.options.link );
 		theEvent.preventDefault();
+		 $('#myPopup').popup('open');
 	}
 });
 

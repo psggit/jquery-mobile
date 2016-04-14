@@ -17,7 +17,7 @@ textarea.ui-input-text {
 	outline: 0;
 }
 .ui-input-text input,
-.ui-input-search input {
+.ui-input-search input:focus {
 	margin: 0;
 	min-height: 2.2em;
 	text-align: left; /* Opera aligns type="date" right by default */
